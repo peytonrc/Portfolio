@@ -1,0 +1,61 @@
+wrapper{
+position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name{
+    font-size: 90px;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    
+}
+
+.title{
+    text-align: right;
+    
+}
+
+
+.navbar{
+    text-align: center;
+   padding-top: 20em;
+    list-style: none;
+    padding: center;
+    
+    
+}
+
+
+a{
+    color: indianred;
+    font-size: 20px;
+    font-style: bold;
+   
+}
+
+
+a:hover{
+    color: midnightblue;
+}
+
+
+.about{
+    font-size: 2em;
+
+}
+
+
+.portfolio{
+    font-size: 2em;
+}
+
+
+.contact{
+    font-size: 2em;
+}
+
+h5{
+    width: 100%;
+}
