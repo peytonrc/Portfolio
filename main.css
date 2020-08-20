@@ -1,30 +1,52 @@
-wrapper{
-position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.name{
-    font-size: 90px;
-    font-family: 'Petit Formal Script', cursive;
-    text-align: center;
+body{
+    background-color: #FFF9FB;
+    overflow-x : hidden;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
     
 }
 
-.title{
+.contactme{
     text-align: right;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    
+}
+
+
+.name{
+    font-size: 150px;
+    font-family: 'Allura', cursive;
+    text-align: center;
+    padding-top: 90px;
+
+    
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: bold;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    padding-left: 44%;
+    padding-right: 30%;
     
 }
 
 
 .navbar{
     text-align: center;
-   padding-top: 20em;
+    padding-top: 8px;
     list-style: none;
-    padding: center;
-    
-    
+    padding-left: 36.5%;
+    padding-right: 35%;
+
+
+  
 }
 
 
@@ -32,12 +54,14 @@ a{
     color: indianred;
     font-size: 20px;
     font-style: bold;
+    font-weight: 500;
+    
    
 }
 
 
 a:hover{
-    color: midnightblue;
+    color: lightslategray;
 }
 
 
@@ -59,3 +83,42 @@ a:hover{
 h5{
     width: 100%;
 }
+
+button{
+    color: darkslategrey;
+}
+
+.foot{
+        position: absolute;
+        bottom: 0px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    
+}
+
+.modal-title{
+    color: indianred;
+}
+
+.store{
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.creature{
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+img {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+ }
+
+ .git:hover{
+    border-color: grey;
+ }
