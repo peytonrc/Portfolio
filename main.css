@@ -111,6 +111,16 @@ button{
     border-radius: 15px 15px 15px 15px;
 }
 
+.business{
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.quote{
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+}
+
 
 
 img {
