@@ -35,8 +35,7 @@ body{
 }
 
 
-#navbar{
-    position: relative;
+.navbar{
     justify-content: center;
     
 }
@@ -82,35 +81,13 @@ button{
 
 .footer{
    position: relative;
-   left: 2em;
-   top: 6em;
+   left: 3em;
+   top: 7em;
 }
 
 .modal-title{
     color: indianred;
 }
-
-.store{
-    border: 3px solid black;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.creature{
-    border: 3px solid black;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.business{
-    border: 3px solid black;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.quote{
-    border: 3px solid black;
-    border-radius: 15px 15px 15px 15px;
-}
-
-
 
 img {
     max-width:100%;
