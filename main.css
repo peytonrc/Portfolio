@@ -79,10 +79,14 @@ button{
     color: darkslategrey;
 }
 
-.footer{
-   position: relative;
-   left: 3em;
-   top: 7em;
+.foot{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: 7em;
+
 }
 
 .modal-title{
